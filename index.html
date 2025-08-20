@@ -1,24 +1,236 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 15</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 15 Kínder</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión ¡Diseñando Nuestros Propios Ritmos!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Describir los pasos (algoritmo) para crear un patrón.</li>
+<li>Seguir un plan visual que combine secuencia y patrón.</li>
+<li>Consolidar ambos conceptos.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Un dibujo de patrón ABAB y una torre de bloques que reproduce ese patrón con precisión, ¡listos para explicar su increíble proceso de diseño!</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Papel y crayones de dos colores (ej. verde y morado).</li>
+<li>Bloques LEGO Duplo de los mismos colores.</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: Ritmo de Colores para Despertar! ⏰ 5 min</h2>
+<p>¡Vamos a activar nuestros cerebros con un juego de ritmos y colores que nos llenará de energía!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Círculo de Colores ⏰ 3 min (Proyectar Diapositiva 1)</h3>
+<p>Invita a los niños a sentarse en círculo. Explica claramente el juego: un niño dirá un color (ej. verde), el siguiente niño a su lado dirá el otro color (ej. morado), y así sucesivamente, creando un patrón oral ABAB. Asegúrate de que todos entiendan el turno y el concepto de "siguiente".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Hola, exploradores de patrones! ¡Qué emoción tenerlos aquí hoy! ¿Listos para una aventura de colores y ritmos? ¡Hoy vamos a ser unos verdaderos arquitectos de la imaginación! Pero antes de empezar nuestra gran construcción, ¡vamos a calentar nuestros cerebros con un juego súper divertido! ¿Pueden sentarse todos en un círculo grande, como una dona de colores? ¡Excelente! Ahora, escuchen con atención. Yo voy a decir un color, y el amigo que está a mi lado va a decir el otro color, y así vamos a ir creando una cadena de colores con nuestras voces. ¡Es como una canción de colores! Yo empiezo: '¡Verde!' ¿Quién sigue? ¡Vamos, Morado!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Acelera el Ritmo! y Despedida del Calentamiento ⏰ 2 min (Proyectar Diapositiva 2)</h3>
+<p>Continúa el juego, aumentando o disminuyendo la velocidad para mantener la atención. Asegúrate de que todos los niños tengan la oportunidad de participar. Felicítalos por su buen trabajo y haz una transición suave a la siguiente actividad, indicando que el juego los preparó para la "receta" de patrones.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Bravo, equipo! ¡Lo están haciendo genial! ¡Escucho un patrón de colores perfecto! ¡Verde, Morado, Verde, Morado! ¿Y si lo hacemos un poquito más rápido? ¡Sí! ¡Verde-Morado-Verde-Morado! ¡Genial! ¡Ahora, un poquito más lento, como un caracol de colores! ¡Excelente! ¡Todos lo hicieron increíble! Este juego nos ha ayudado a calentar nuestra mente para lo que viene. ¿Saben? Los patrones son como recetas, y hoy vamos a descubrir la receta secreta para hacer nuestros propios patrones. ¡Vamos a la siguiente aventura!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: La Receta Secreta de los Patrones ⏰ 5 min</h2>
+<p>Descubramos juntos la 'receta' mágica para crear nuestros propios patrones, ¡como si fuéramos chefs de la diversión!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Misterio del Tren de Colores ⏰ 3 min (Proyectar Diapositiva 3)</h3>
+<p>Muestra un patrón de bloques ABAB (ej. verde, morado, verde, morado) ya construido. Colócalo en un lugar visible para todos. Pregunta a los niños cómo creen que se hizo, como si fuera una "receta" o un "código secreto". Anima a que describan los colores y el orden que ven.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Súper bien, equipo! Ahora que ya calentamos, tengo un misterio para ustedes... ¡Miren este tren de colores! (Muestra el patrón ABAB de bloques de forma entusiasta). ¡Es un tren mágico! ¿Qué colores ven en mi tren? ¡Sí, verde y morado! ¿Y cómo están puestos los colores? ¿Hay un orden especial? ¿Qué color va después del verde? ¿Y después del morado? ¡Es como si tuviera una 'receta secreta' para hacerlo! ¿Alguien tiene una idea de qué 'ingredientes' y 'pasos' utilicé para construirlo? ¡Vamos a descubrir los secretos de los patrones juntos!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Creando Nuestra Propia Receta Visual! ⏰ 2 min (Proyectar Diapositiva 4)</h3>
+<p>A medida que los niños describen los pasos, escríbelos o dibújalos de manera sencilla en el pizarrón o en una cartulina grande: "Paso 1: Poner un bloque verde. Paso 2: Poner un bloque morado. Paso 3: Repetir". Explica que esa lista de pasos es como una "receta" o un "plan" para construir el patrón, y en computación, ¡lo llamamos algoritmo!.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Son unos detectives increíbles! ¡Lo descubrieron! Nuestra 'receta secreta' para este tren es: Primero, ponemos un bloque verde (mientras señalas o dibujas el verde). Luego, ponemos un bloque morado (y señalas o dibujas el morado). ¡Y después qué hacemos? ¡Exacto! ¡Volvemos a empezar, repetimos! ¡Ponemos otro verde y otro morado! Esta 'receta', esta lista de pasos que seguimos para hacer algo, ¡es como un mapa para construir! ¡Y saben qué? En el mundo de la tecnología, a estas recetas las llamamos ¡algoritmos! ¡Es como programar nuestra diversión! Hoy vamos a crear nuestras propias recetas mágicas."</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra: Diseñando y Construyendo Nuestro Ritmo! ⏰ 25 min</h2>
+<p>Es momento de que nuestros pequeños genios de la programación diseñen su propio 'plan' de colores y lo transformen en una increíble construcción.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Plano Mágico de Colores ⏰ 10 min (Proyectar Diapositiva 5)</h3>
+<p>Reparte a cada niño una tira de papel y crayones de los dos colores (verde y morado). Explica que primero dibujarán su propio patrón de puntos ABAB en la tira de papel. Guíalos para que entiendan que este dibujo es su "plan" o "receta visual" para lo que construirán después. Anímales a dibujar puntos grandes y claros para que su plan sea fácil de seguir.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Muy bien, mis pequeños ingenieros de patrones! Ahora que ya sabemos que los patrones tienen una 'receta' o un 'plan', ¡es su turno de crear el suyo! Cada uno va a tener una hoja y sus crayones mágicos. Primero, vamos a ser diseñadores de patrones. Van a dibujar un patrón de puntos de dos colores, ¡como si fuera su mapa del tesoro de bloques! Piensen: 'primero un punto verde, luego un punto morado, y otra vez verde y morado'. ¡Dibujen muchos puntos para que su plan sea muy largo y divertido! Asegúrense de que sus puntos sean grandes y claros para que luego puedan leer su plan fácilmente. ¿Listos para crear su propio plan maestro? ¡Manos a la obra, artistas!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Construyendo la Torre de Ritmos ⏰ 10 min (Proyectar Diapositiva 6)</h3>
+<p>Una vez que los niños tienen su plan dibujado, reparte los bloques LEGO Duplo de los mismos colores (verde y morado). Indícales que usen su dibujo como guía para construir una torre que coincida exactamente con su patrón. Recuérdales que deben seguir su plan paso a paso, colocando un bloque por cada punto dibujado. Anímales a ir despacio y verificar que los colores coincidan.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Increíble! ¡Ya tienen su 'plan' de colores dibujado! ¡Se ve genial! Ahora, lo más emocionante: ¡vamos a construirlo! Les voy a dar unos bloques LEGO Duplo, ¡y ustedes van a ser los constructores de sus propios patrones! Tomen sus bloques y, como verdaderos constructores, sigan su dibujo paso a paso. Si su plan dice 'punto verde', ¿qué bloque van a poner? ¡Un bloque verde! Y si dice 'punto morado', ¡un bloque morado! ¡Su 'plan' les dirá exactamente dónde va cada color! Recuerden ir con cuidado y mirar bien su dibujo. ¡Así es como los grandes programadores hacen sus creaciones! ¡A construir esas torres de ritmos!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Pequeños Ajustes y Grandes Logros! ⏰ 5 min (Proyectar Diapositiva 7)</h3>
+<p>Mientras los niños construyen, circula por el aula. Ofrece apoyo individualizado, guiándolos para "leer" sus planes si lo necesitan. Fomenta que se ayuden entre compañeros, por ejemplo, "Mira, tu plan dice que ahora va el color verde". Celebra los pequeños logros y la concentración en la tarea. Si un niño se equivoca, guíalo suavemente a revisar su plan y corregir su torre.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Qué torres tan altas y coloridas están haciendo! Estoy viendo cómo todos están usando sus planes. ¡Eso es ser un verdadero ingeniero de patrones! Si alguien tiene una duda con su plan, no se preocupen, ¡pueden preguntar a un amigo o a mí! ¿Recuerdan nuestra estrategia? '¡Mira, tu plan dice que ahora va el color verde!' ¡Así nos ayudamos a seguir la receta! Si ven que un bloque no coincide con su plan, ¡no pasa nada! Los ingenieros revisan sus planos y hacen pequeños ajustes. ¡Felicidades por seguir su receta tan bien!"</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida: Mi Plan, Mi Creación! ⏰ 5 min</h2>
+<p>Es el momento de celebrar nuestros logros, compartir nuestras creaciones y ver cómo nuestros planes se hicieron realidad.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Desfile de Patrones ⏰ 3 min (Proyectar Diapositiva 8)</h3>
+<p>Pide a los niños que, uno por uno o en pequeños grupos, muestren su dibujo y su torre de bloques. Anímalos a comparar visualmente y a responder la pregunta clave: "¿El plan que dibujaste y la torre que construiste son iguales?". Celebra cada coincidencia y el esfuerzo en seguir su propio algoritmo.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Wow, wow, wow! ¡Miren todas estas obras de arte! ¡Son unos genios de los patrones! Ahora, vamos a hacer un gran desfile de nuestras creaciones. ¿Quién quiere ser el primero en mostrarnos su plan (su dibujo) y su torre? ¡Qué emoción! (Mientras cada niño muestra) ¡Miren qué bien! ¿Su plan y su construcción son exactamente iguales? ¡Levanten la mano si su torre siguió al pie de la letra su dibujo! ¡Es increíble ver cómo su dibujo se convirtió en una torre de verdad!"</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Reflexión y Despedida Brillante ⏰ 2 min (Proyectar Diapositiva 9)</h3>
+<p>Felicita a todos por su increíble trabajo y esfuerzo. Refuerza la idea de que hoy aprendieron a crear un "plan" (un algoritmo) y a seguirlo para construir algo (un patrón). Conecta esto con la idea de que los ingenieros y programadores hacen lo mismo. Termina con un mensaje positivo y de despedida.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">"¡Equipo, son unos programadores y diseñadores espectaculares! Hoy no solo hicieron patrones hermosos, ¡sino que también aprendieron a crear un 'plan' o una 'receta' para hacer cosas increíbles! Eso es lo que hacen los ingenieros y los que construyen robots: ¡hacen un plan y lo siguen! Hicieron un algoritmo y crearon un patrón. ¿Qué fue lo que más les gustó de ser arquitectos de ritmos hoy? ¡Felicidades a todos, misión cumplida! ¡Nos vemos en la próxima aventura de TECH4GOOD AI First, donde seguiremos descubriendo el mundo de la programación de una forma muy divertida!"</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
